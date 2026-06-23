@@ -5,10 +5,10 @@ An immersive, full-stack interactive simulator and visualization sandbox for mod
 **📸 Application Screenshots**
 Below are placeholders where you can add your custom screenshots of the application:
 1. Unified Dashboard & Catalog Management
-![alt text](screenshots/dashboard.png)
-
+![alt text](https://github.com/shruti19-eng/E-Commerce-Recommender-System-/blob/main/Screenshot_1.png)
 Select user personas, rate or delete items dynamically, and view customizable catalog item details.
-2. Math & Matrix Similarity heatmaps
+
+3. Math & Matrix Similarity heatmaps
 ![alt text](screenshots/similarity_matrix.png)
 
 Explore real-time Pearson Correlation and Cosine Similarity matrices for both User-to-User and Item-to-Item dimensions.
