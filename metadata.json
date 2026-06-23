@@ -1,0 +1,6 @@
+{
+  "name": "E-Commerce Recommender System Sandbox",
+  "description": "An interactive, full-stack recommender system playground featuring Collaborative Filtering, Matrix Factorization (SVD) with interactive SGD training, and Gemini-powered hybrid NLP matching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
