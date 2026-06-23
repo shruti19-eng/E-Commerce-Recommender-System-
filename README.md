@@ -10,12 +10,12 @@ Select user personas, rate or delete items dynamically, and view customizable ca
 
 3. Math & Matrix Similarity heatmaps
 ![alt text](https://github.com/shruti19-eng/E-Commerce-Recommender-System-/blob/main/Screenshot_2.png)
-
 Explore real-time Pearson Correlation and Cosine Similarity matrices for both User-to-User and Item-to-Item dimensions.
-3. Animated SVD (SGD) Latent Factor Training Loop
-![alt text](screenshots/svd_training.gif)
 
+3. Animated SVD (SGD) Latent Factor Training Loop
+![alt text](https://github.com/shruti19-eng/E-Commerce-Recommender-System-/blob/main/Screenshot_3.png)
 Watch the SVD training loop update in real-time as Stochastic Gradient Descent runs, tracking MSE loss drops with animated SVG line plots.
+
 ✨ Features
 Dynamic Persona Selection: Switch between preset user personas with unique bios and category preferences (e.g., Tech enthusiast, Gourmet Chef, Bookworm).
 Interactive Ratings & Catalog: Dynamically add, update, or remove 5-star ratings for catalog products, seeing recommendation scores update instantly.
@@ -23,6 +23,7 @@ Interactive Ratings & Catalog: Dynamically add, update, or remove 5-star ratings
 Memory-Based CF Visualizer:
 Full heatmaps of User-to-User and Item-to-Item similarities.
 Interactive cell inspection explaining the exact similarity score between individual users or items.
+
 Model-Based SVD (SGD) Simulator:
 Interactive latent factor controls (dimensions, learning rate, regularization parameter 
 ).
