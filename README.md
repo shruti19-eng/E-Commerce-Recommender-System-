@@ -1,6 +1,8 @@
-Collaborative Filtering & SVD Recommendation Engine Sandbox
+**Collaborative Filtering & SVD Recommendation Engine Sandbox**
+
 An immersive, full-stack interactive simulator and visualization sandbox for modern recommendation systems. This application implements, visualizes, and compares Memory-Based Collaborative Filtering (User-User and Item-Item Cosine Similarity) and Model-Based Collaborative Filtering (Latent Factor Model using Singular Value Decomposition trained via Stochastic Gradient Descent) alongside real-time AI-powered natural language explanations.
-📸 Application Screenshots
+
+**📸 Application Screenshots**
 Below are placeholders where you can add your custom screenshots of the application:
 1. Unified Dashboard & Catalog Management
 ![alt text](screenshots/dashboard.png)
@@ -17,6 +19,7 @@ Watch the SVD training loop update in real-time as Stochastic Gradient Descent r
 ✨ Features
 Dynamic Persona Selection: Switch between preset user personas with unique bios and category preferences (e.g., Tech enthusiast, Gourmet Chef, Bookworm).
 Interactive Ratings & Catalog: Dynamically add, update, or remove 5-star ratings for catalog products, seeing recommendation scores update instantly.
+
 Memory-Based CF Visualizer:
 Full heatmaps of User-to-User and Item-to-Item similarities.
 Interactive cell inspection explaining the exact similarity score between individual users or items.
@@ -27,6 +30,7 @@ Live Animated SGD Training: Watch the user-item factorization matrices converge 
 SVG-based real-time Mean Squared Error (MSE) loss history chart.
 Interactive 2D/multi-dimensional latent coordinate display for users and products.
 Explainable AI Integration: Powered by server-side Google Gemini API, click on any recommended item to request a natural language explanation of why that product fits the user persona and their rating profile.
+
 🛠️ Architecture & Tech Stack
 This is a modern Full-Stack SPA built with:
 Frontend
@@ -40,6 +44,7 @@ Node.js with Express custom server.
 Built-in Vite middleware proxying for seamless dev routing.
 Google GenAI SDK for server-side LLM inference.
 Production bundling with esbuild compiling into a single self-contained CommonJS target (dist/server.cjs).
+
 📐 Mathematical Formulation
 1. Cosine Similarity
 For users (or items) 
@@ -95,6 +100,7 @@ code
 Bash
 npm run build
 npm run start
+
 📁 Repository Structure
 code
 Text
@@ -111,5 +117,6 @@ Text
 ├── server.ts            # Full-stack Express server and Gemini proxy routes
 ├── package.json         # Build pipeline scripts & dependency configurations
 └── vite.config.ts       # React-Vite environment build configurations
+
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
