@@ -9,7 +9,7 @@ Below are placeholders where you can add your custom screenshots of the applicat
 Select user personas, rate or delete items dynamically, and view customizable catalog item details.
 
 3. Math & Matrix Similarity heatmaps
-![alt text](screenshots/similarity_matrix.png)
+![alt text](https://github.com/shruti19-eng/E-Commerce-Recommender-System-/blob/main/Screenshot_2.png)
 
 Explore real-time Pearson Correlation and Cosine Similarity matrices for both User-to-User and Item-to-Item dimensions.
 3. Animated SVD (SGD) Latent Factor Training Loop
